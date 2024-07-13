@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Colors</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- 1. Colors With Different Shades -->
+    <!-- https://tailwindcss.com/docs/customizing-colors  --> <h1 class="#"> 1.Colors with different Shades</h1> <br>
+     <p class="text-violet-50"> Hello tailwindcss </p>
+     <p class="text-violet-100"> Hello tailwindcss </p>
+     <p class="text-violet-200"> Hello tailwindcss </p>
+     <p class="text-violet-300"> Hello tailwindcss </p>
+     <p class="text-violet-400"> Hello tailwindcss </p>
+     <p class="text-violet-500"> Hello tailwindcss </p>
+     <p class="text-violet-600"> Hello tailwindcss </p>
+     <p class="text-violet-700"> Hello tailwindcss </p>
+     <p class="text-violet-800"> Hello tailwindcss </p>
+     <p class="text-violet-900"> Hello tailwindcss </p>
+     <br>
+     <hr>
+     <br>
+    <!-- 2. Background Colors -->
+    <!-- https://tailwindcss.com/docs/background-color --> <h2> 2. Background Colors</h2>
+    <br>
+    <div class="bg-pink-500 text-white">Hello</div>
+    <div class="bg-red-500 text-white">Hello</div>
+    <div class="bg-yellow-500 text-white">Hello</div>
+    <div class="bg-teal-500 text-white">Hello</div>
+    <div class="bg-orange-500 text-white">Hello</div>
+    <br>
+     <hr>
+     <br>
+
+    <!-- Text Underline --> <h3> 3. Text decoration </h3>
+     <br>
+     <p class="line-through">Tailwind</p>
+     <p class="underline decoration-blue-400">Tailwind</p>
+     <p class="underline">Tailwind</p> <br>
+     <p class="overline">Tailwind</p>
+     <p class="text-red-500 underline decoration-blue-300"> hello </p>
+     <br>
+     <hr>
+     <br>
+    <!-- https://tailwindcss.com/docs/accent-color -->
+     <h4> 4. Accent colors</h4>
+
+     <input type="checkbox" checked>
+     <input type="checkbox" class="accent-yellow-700" checked>
+     <input type="checkbox" class="accent-red-600" checked>
+     <input type="checkbox" class="accent-teal-600" checked>
+
+     <br>
+     <hr>
+     <br>
+
+    <!-- //Arbitrary colors-->
+     <h5> 5. Arbitrary Colors </h5>
+     <p class="text-[#50d71e] bg-yellow-400">Tailwind </p>
+  </body>
+</html>
