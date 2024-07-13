@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Sizing</title>
+  </head>
+  <body class="p-20">
+    <!-- Width -->
+    <!-- https://tailwindcss.com/docs/width -->
+     <h1>1.Width All Around</h1>
+     <div class="bg-teal-100 p-5">
+        <div class="bg-red-600 m-1 w-0"> 0 </div>
+        <div class="bg-red-600 m-1 w-1"> 1 </div>
+        <div class="bg-red-600 m-1 w-2"> 2 </div>
+        <div class="bg-red-600 m-1 w-3"> 3 </div>
+        <div class="bg-red-600 m-1 w-4"> 4 </div>
+     </div>
+
+    <!-- Percentages -->
+    <h1 class="mt-5">2.Percentages</h1>
+    <div class="bg-indigo-400 mb-6 p-5">
+        <div class="bg-green-400 mb-6 p-5 w-1/2">1/2</div>
+        <div class="bg-green-400 mb-6 p-5 w-1/3">1/3</div>
+    </div>
+    <!-- Max Width -->
+    <!-- https://tailwindcss.com/docs/max-width -->
+     <h1 class="mt-5"> Max Width</h1>
+     <div class="bg-yellow-100 p-10 mb-10 max-w-lg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, perspiciatis deleniti cum eum veniam vitae quis saepe dolorum obcaecati provident natus culpa qui quam quasi nihil amet deserunt. Est, obcaecati. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates ratione enim molestiae corrupti natus dicta magni expedita a debitis excepturi laudantium nulla quaerat culpa impedit, officia id! Rerum, recusandae ducimus.
+        Voluptatum, nesciunt ex? Reprehenderit dicta saepe iste voluptate harum et, soluta nostrum? Dicta minus dignissimos quidem! Suscipit odio fugiat, eligendi, aperiam iusto odit ipsa tempore unde explicabo doloremque eos! Eligendi.
+        Laudantium similique natus numquam laboriosam! Quaerat exercitationem odit numquam asperiores cupiditate. Deleniti fugit enim maiores aperiam! Eum, maxime? Dolorum molestiae voluptatum placeat nesciunt asperiores iusto reiciendis, amet quisquam aut harum.
+        Temporibus quisquam maiores nulla ipsum repudiandae totam soluta sed ut molestias repellendus culpa nobis veritatis placeat distinctio aspernatur omnis rem nam voluptate, dignissimos minus voluptatem! Consequatur dolorem nemo repudiandae aliquid?
+        Sed, earum? Adipisci, dolorum quae odio velit blanditiis, inventore nulla asperiores mollitia laudantium qui cumque aspernatur at aliquid aut. Ipsa delectus atque, at eum quae quo perspiciatis quis laudantium error!
+        Asperiores aspernatur inventore ratione assumenda nobis vitae nam facere repellendus consequuntur. Inventore ullam non qui ducimus consequuntur officia quos! Debitis dolorum illo eum ipsum corrupti fugiat sint nemo quisquam accusantium.
+        Ut, magni quos nihil libero eligendi sit temporibus at illum adipisci optio enim, cupiditate veritatis hic inventore, ducimus et. Quaerat placeat consequuntur porro? Expedita saepe nihil fuga nostrum quam nobis?
+        Asperiores, obcaecati illum doloribus illo consequatur sequi blanditiis quod iure ducimus rerum eum ut reiciendis animi aperiam consectetur maxime aliquid reprehenderit quidem enim dolorum id. Sunt sequi amet cupiditate inventore.
+        Ratione harum laboriosam dolorem consequatur deserunt delectus at praesentium ipsum eos repellendus nostrum, aliquid hic inventore ut perferendis iure doloremque similique tempore totam minima vero amet pariatur deleniti. Modi, ipsa?
+        Voluptatum pariatur culpa natus, quam magnam repellat aut optio officia aspernatur ipsa fugiat cum, quod commodi unde vero tenetur nihil quo illum vitae. Iste nisi quod, autem praesentium sint aperiam.
+     </div>
+    <!-- Width of the viewport -->
+     <h1> VW & Width </h1>
+     <div class="bg-green-500 my-2 p-5 w-screen">(vw)screen</div>
+
+    <!-- 100% of container -->
+     <h1>VM & width 100%</h1>
+     <div class="bg-teal-500 text-white my-2 w-fill">Width 100% 1-full</div>
+    <!-- Arbitrary Width -->
+    <div class="bg-teal-500 text-white my-2 w-[500px]">Arbitary Width</div>
+    <!-- Height (Most of the same options as widths) -->
+       
+    <!-- https://tailwindcss.com/docs/height -->
+         <h1 class="mt-5"> height</h1>
+         <div class="bg-indigo-400 ml-5 h-24"></div>
+         <div class="bg-indigo-400 ml-5 h-24"></div>
+    <!-- Min Height -->
+    <h1 class="mt-5"> min height full</h1>
+    <div class="p-5 h-[400px] bg-green-300 mb-5">
+      <div class="min h-full bg-green-300 mb-5">full height</div>
+    </div>
+    <!-- https://tailwindcss.com/docs/min-height -->
+
+    <!-- Max Height -->
+    <!-- https://tailwindcss.com/docs/max-height -->
+    <div class="h-[150px] bg-orange-300 mb-5">
+      <div class="m-20 bg-orange-500 h-48 max-h-full">max height full</div>
+    <!-- Full screen height -->
+   <h1 class="mb-2"> full screen height</h1>
+   <div class="bg-pink-300 mb-4 h-screen"> hello</div>
+    <!-- Width Auto -->
+    <div class="bg-green-400 p-4 w-auto"> hello</div>    
+
+  </body>
+</html>
